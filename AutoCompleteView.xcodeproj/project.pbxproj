@@ -10,6 +10,12 @@
 		84D6E21924A9288600F03CC3 /* AutoCompleteView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D6E20F24A9288600F03CC3 /* AutoCompleteView.framework */; };
 		84D6E21E24A9288600F03CC3 /* AutoCompleteViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6E21D24A9288600F03CC3 /* AutoCompleteViewTests.swift */; };
 		84D6E22024A9288600F03CC3 /* AutoCompleteView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D6E21224A9288600F03CC3 /* AutoCompleteView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84D6E22B24A9321200F03CC3 /* AutoCompleteTextFirld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6E22A24A9321200F03CC3 /* AutoCompleteTextFirld.swift */; };
+		84D6E22D24A9368000F03CC3 /* AutoCompleteViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6E22C24A9368000F03CC3 /* AutoCompleteViewDataSource.swift */; };
+		84D6E23024A9C99A00F03CC3 /* AutoCompleteViewTableCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6E22E24A9C99A00F03CC3 /* AutoCompleteViewTableCellTableViewCell.swift */; };
+		84D6E23124A9C99A00F03CC3 /* AutoCompleteViewTableCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E22F24A9C99A00F03CC3 /* AutoCompleteViewTableCellTableViewCell.xib */; };
+		84D6E28024AA252400F03CC3 /* CelIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6E27F24AA252400F03CC3 /* CelIdentity.swift */; };
+		84D6E28224AB21D700F03CC3 /* AutoCompleteTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6E28124AB21D700F03CC3 /* AutoCompleteTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +26,27 @@
 			remoteGlobalIDString = 84D6E20E24A9288600F03CC3;
 			remoteInfo = AutoCompleteView;
 		};
+		84D6E27424A9D85500F03CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D6E26E24A9D85400F03CC3 /* AutoCompleteView.Demo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84D6E23B24A9D85100F03CC3;
+			remoteInfo = AutoCompleteView.Demo;
+		};
+		84D6E27624A9D85500F03CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D6E26E24A9D85400F03CC3 /* AutoCompleteView.Demo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84D6E25124A9D85400F03CC3;
+			remoteInfo = AutoCompleteView.DemoTests;
+		};
+		84D6E27824A9D85500F03CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D6E26E24A9D85400F03CC3 /* AutoCompleteView.Demo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84D6E25C24A9D85400F03CC3;
+			remoteInfo = AutoCompleteView.DemoUITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +56,13 @@
 		84D6E21824A9288600F03CC3 /* AutoCompleteViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCompleteViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D6E21D24A9288600F03CC3 /* AutoCompleteViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteViewTests.swift; sourceTree = "<group>"; };
 		84D6E21F24A9288600F03CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D6E22A24A9321200F03CC3 /* AutoCompleteTextFirld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextFirld.swift; sourceTree = "<group>"; };
+		84D6E22C24A9368000F03CC3 /* AutoCompleteViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteViewDataSource.swift; sourceTree = "<group>"; };
+		84D6E22E24A9C99A00F03CC3 /* AutoCompleteViewTableCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteViewTableCellTableViewCell.swift; sourceTree = "<group>"; };
+		84D6E22F24A9C99A00F03CC3 /* AutoCompleteViewTableCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoCompleteViewTableCellTableViewCell.xib; sourceTree = "<group>"; };
+		84D6E26E24A9D85400F03CC3 /* AutoCompleteView.Demo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AutoCompleteView.Demo.xcodeproj; path = AutoCompleteView.Demo/AutoCompleteView.Demo.xcodeproj; sourceTree = "<group>"; };
+		84D6E27F24AA252400F03CC3 /* CelIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelIdentity.swift; sourceTree = "<group>"; };
+		84D6E28124AB21D700F03CC3 /* AutoCompleteTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +87,7 @@
 		84D6E20524A9288600F03CC3 = {
 			isa = PBXGroup;
 			children = (
+				84D6E26E24A9D85400F03CC3 /* AutoCompleteView.Demo.xcodeproj */,
 				84D6E21124A9288600F03CC3 /* AutoCompleteView */,
 				84D6E21C24A9288600F03CC3 /* AutoCompleteViewTests */,
 				84D6E21024A9288600F03CC3 /* Products */,
@@ -71,8 +106,14 @@
 		84D6E21124A9288600F03CC3 /* AutoCompleteView */ = {
 			isa = PBXGroup;
 			children = (
+				84D6E22924A9319100F03CC3 /* Helpers */,
 				84D6E21224A9288600F03CC3 /* AutoCompleteView.h */,
 				84D6E21324A9288600F03CC3 /* Info.plist */,
+				84D6E22A24A9321200F03CC3 /* AutoCompleteTextFirld.swift */,
+				84D6E22C24A9368000F03CC3 /* AutoCompleteViewDataSource.swift */,
+				84D6E22E24A9C99A00F03CC3 /* AutoCompleteViewTableCellTableViewCell.swift */,
+				84D6E22F24A9C99A00F03CC3 /* AutoCompleteViewTableCellTableViewCell.xib */,
+				84D6E28124AB21D700F03CC3 /* AutoCompleteTextFieldDelegate.swift */,
 			);
 			path = AutoCompleteView;
 			sourceTree = "<group>";
@@ -84,6 +125,24 @@
 				84D6E21F24A9288600F03CC3 /* Info.plist */,
 			);
 			path = AutoCompleteViewTests;
+			sourceTree = "<group>";
+		};
+		84D6E22924A9319100F03CC3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84D6E27F24AA252400F03CC3 /* CelIdentity.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		84D6E26F24A9D85400F03CC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D6E27524A9D85500F03CC3 /* AutoCompleteView.Demo.app */,
+				84D6E27724A9D85500F03CC3 /* AutoCompleteView.DemoTests.xctest */,
+				84D6E27924A9D85500F03CC3 /* AutoCompleteView.DemoUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +207,7 @@
 				TargetAttributes = {
 					84D6E20E24A9288600F03CC3 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					84D6E21724A9288600F03CC3 = {
 						CreatedOnToolsVersion = 11.5;
@@ -165,6 +225,12 @@
 			mainGroup = 84D6E20524A9288600F03CC3;
 			productRefGroup = 84D6E21024A9288600F03CC3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84D6E26F24A9D85400F03CC3 /* Products */;
+					ProjectRef = 84D6E26E24A9D85400F03CC3 /* AutoCompleteView.Demo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				84D6E20E24A9288600F03CC3 /* AutoCompleteView */,
@@ -173,11 +239,36 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		84D6E27524A9D85500F03CC3 /* AutoCompleteView.Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AutoCompleteView.Demo.app;
+			remoteRef = 84D6E27424A9D85500F03CC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84D6E27724A9D85500F03CC3 /* AutoCompleteView.DemoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AutoCompleteView.DemoTests.xctest;
+			remoteRef = 84D6E27624A9D85500F03CC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84D6E27924A9D85500F03CC3 /* AutoCompleteView.DemoUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AutoCompleteView.DemoUITests.xctest;
+			remoteRef = 84D6E27824A9D85500F03CC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		84D6E20D24A9288600F03CC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D6E23124A9C99A00F03CC3 /* AutoCompleteViewTableCellTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D6E28224AB21D700F03CC3 /* AutoCompleteTextFieldDelegate.swift in Sources */,
+				84D6E23024A9C99A00F03CC3 /* AutoCompleteViewTableCellTableViewCell.swift in Sources */,
+				84D6E22D24A9368000F03CC3 /* AutoCompleteViewDataSource.swift in Sources */,
+				84D6E28024AA252400F03CC3 /* CelIdentity.swift in Sources */,
+				84D6E22B24A9321200F03CC3 /* AutoCompleteTextFirld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +436,7 @@
 		84D6E22424A9288600F03CC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,6 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.angpysha.AutoCompleteView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +461,7 @@
 		84D6E22524A9288600F03CC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,6 +485,7 @@
 		84D6E22724A9288600F03CC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AutoCompleteViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +503,7 @@
 		84D6E22824A9288600F03CC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AutoCompleteViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
